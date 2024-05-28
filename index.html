@@ -6,11 +6,12 @@
    
 </head>
 <body>
-    <p>Rock Paper Scissors</p>
+    <div class="main-box">
+    <p class="header">Rock Paper Scissors</p>
     <button class="move-button-rock">
-    <img src="images/Rock.png" class="move-img"></button>
+    <img src="images/rock.png" class="move-img"></button>
     <button class="move-button-paper" >
-    <img src="images/Paper.png" class="move-img"></button>
+    <img src="images/paper.png" class="move-img"></button>
     <button class="move-button-sci" >
     <img src="images/Scissors.png" class="move-img"></button>
     
@@ -24,7 +25,7 @@
                     localStorage.removeItem('score');
                     UpdateScore();" class="reset-button">Reset score</button> 
     <button class="auto-click-button" onclick="autoPlay();">Auto Play</button>
-
+    </div>
     <script src="game.js">
         
     </script>
