@@ -1,4 +1,4 @@
-#html file
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,8 @@
    
 </head>
 <body>
-    <p>Rock Paper Scissors</p>
+    <div class="box">
+    <h1>Rock Paper Scissors</h1>
     <button class="move-button-rock">
     <img src="images/rock.png" class="move-img"></button>
     <button class="move-button-paper" >
@@ -23,8 +24,9 @@
                     score.Loses=0;
                     score.Ties=0;
                     localStorage.removeItem('score');
-                    UpdateScore();" class="reset-button">Reset score</button> 
+                    UpdateScore();" class="reset-button btn">Reset score</button> 
     <button class="auto-click-button" onclick="autoPlay();">Auto Play</button>
+    </div>
 
     <script src="game.js">
         

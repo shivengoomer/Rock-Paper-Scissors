@@ -1,11 +1,27 @@
+.box{
+    margin-top: 50px;
+    margin-left:auto;
+    margin-bottom:auto;
+    margin-right:auto;
+    width: 600px;
+    height: 400px;
+    border-radius: 48px;
+    background: linear-gradient(145deg, #d8d4d4, #fffbfb);
+    box-shadow:  17px 17px 34px #eee9e9,
+             -17px -17px 34px #f2eded;
+    text-align: center;
+    padding: 15px;
+}
 body{
-    color: white;
+    color: black;
     background-color: black;
+    
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 .move-button-rock,.move-button-paper,.move-button-sci{
     background:transparent;
-    border-color: white;
+    border:solid 3px black;
     width: 100px;
     height: 100px;
     border-radius: 50px;
